@@ -9,11 +9,11 @@ cout << "##ERROR : " << txt << " : VALUE : " << val << " ##" << endl
 
 // print vector with template
 template <class T> void print_vec(vector<T> vec) {
-    FOR_ITR(prop, vec) {
-        cout << vec.at(prop) << endl;
+    for(const auto x : vec) {
+        cout << x << endl;
     }
 }
 
 int main() {
-    
+
 }
